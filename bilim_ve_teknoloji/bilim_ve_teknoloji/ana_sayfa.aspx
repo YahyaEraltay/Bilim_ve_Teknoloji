@@ -1,0 +1,13 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/sablon.Master" AutoEventWireup="true" CodeBehind="ana_sayfa.aspx.cs" Inherits="bilim_ve_teknoloji.ana_sayfa" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style5 {
+            height: 599px;
+            margin-top: -290px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">   
+    <p class="auto-style5">Yüzyıllardır insanlığın yeryüzündeki yaşama ortamına duyduğu merak, yaşam standartlarını yükseltecek bir etkinliğe bürünmeye başladı. Olağan gibi görünen olayları anlama çabası, aslında dünyanın gizemlerle dolu bir yer olduğunu ve bunları çözümlemek gerektiği gerçeğini doğurmuştur. Geleneksel bilim sadece anlamaya ve çözmeye gereksinim hissetse de, ileri safhalara bölünen bilim türleri sadece çözmeyi değil çözümden öte ilerlemeyi de kapsar. Geçmişe bakıldığında en önemli sayılan bilim dallarından bazıları matematik, geometri, gök bilimi ve tıptır. Çok çeşitli matematiksel çözümleme sistemlerinin geliştirildiği ilk zamanlardan bu yana hâlâ yeni formüller, sistemler, kuramlar geliştirilmektedir ki bu da bilimin sürekliliğine bir örnektir. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Teknoloji insanların ihtiyaç ve isteklerini karşılamak üzere hedefe ulaşmak için kullanılan çevreyi geliştiren, değiştiren ve hatta dönüştüren bilgi, beceri, yöntem ve süreçlerinin tamamı olarak tanımlanıyor. İnsanlar teknolojiyi mal veya hizmet üretmek, bilgiye ulaşmak ve kullanmak gibi amaçlarla kullanabiliyor. &nbsp; Teknoloji sayesinde bilimsel araştırmalar yapılabiliyor ve insanlığın yararı için önemli çalışmalar gerçekleştiriliyor.  </p>
+    
+</asp:Content>

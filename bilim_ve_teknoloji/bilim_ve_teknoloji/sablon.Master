@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sablon.master.cs" Inherits="bilim_ve_teknoloji.sablon" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+       <style>
+.met_ort {
+  text-align: center;
+}
+.met_sol {
+  text-align: left;
+  font-family: Verdana;
+  text-shadow: 2px 2px 5px black;
+  font-size: 30px;
+}
+.auto-style1 {
+   height: 26px;
+}
+.auto-style2 {
+  height: 27px;
+}
+.auto-style3 {
+  height: 599px;
+}
+.auto-style4 {
+  height: 76px;
+}
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+    text-align: right;
+    float:right !important;
+    position: relative;
+    bottom: 60px;
+}
+       </style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Bilim ve Teknoloji</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="#f5f4df">
+    <form id="form1" runat="server">
+        <table style="width:100%;"> 
+            <tr>
+                <td width="342px" class="auto-style4" colspan="2" bgcolor="#f5f4df"><p class="met_sol" >
+                    &nbsp; &nbsp; &nbsp; Bilim ve Teknoloji </p>
+                    <div class="menu">
+                    <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" BackColor="#f5f4df" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="20px" ForeColor="Black" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#075E54" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#E3EAEB" />
+                        <DynamicSelectedStyle BackColor="#DCF8C6" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/giris_yap.aspx" Text="Giriş Yap" Value="Giriş Yap"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/kayit_ol.aspx" Text="Kayıt Ol" Value="Kayıt Ol"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#C70039" ForeColor="White" />
+                        <StaticMenuItemStyle BorderStyle="Solid" BorderColor="#66CCFF" HorizontalPadding="5px" VerticalPadding="2px" ItemSpacing="10px" />
+                        <StaticSelectedStyle BackColor="#1C5E55" />
+                    </asp:Menu>
+                    </div>
+                </td>
+                
+                </tr>
+            <tr>
+                <td width="342px" class="auto-style3" >
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#f5f4df" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="15px" ForeColor="#C70039" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#075E54" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#E3EAEB" />
+                        <DynamicSelectedStyle BackColor="#DCF8C6" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/ana_sayfa.aspx" Text="Ana Sayfa" Value="Ana Sayfa"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/forum.aspx" Text="Forum" Value="Forum"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/raporlar.aspx" Text="Raporlar" Value="Raporlar"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#C70039" ForeColor="White" />
+                        <StaticMenuItemStyle BorderStyle="Solid" ForeColor="#003366" HorizontalPadding="136px" ItemSpacing="10px" VerticalPadding="35px" BorderColor="#66CCFF" />
+                        <StaticMenuStyle Height="599px" />
+                        <StaticSelectedStyle BackColor="#1C5E55" />
+                    </asp:Menu>
+                </td>
+                <td class="auto-style3" ><div class="auto-style1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div></td>
+            </tr>
+            <tr>
+                <td class="auto-style2" colspan="2" bgcolor="#f5f4df" ><p class="met_ort"><strong>Yahya Eraltay</strong></p></td>
+            </tr>
+            </table>
+       
+           
+    </form>
+    
+</body>
+</html>
